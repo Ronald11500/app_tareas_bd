@@ -1,0 +1,33 @@
+:root {
+  --font-sans: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: beige;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.task {
+  background-color: white;
+  padding: 10px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.task.done {
+  text-decoration: line-through;
+  color: gray;
+}
+button {
+  margin-left: 5px;
+}
+#task {
+  margin-top: 20px;
+}
